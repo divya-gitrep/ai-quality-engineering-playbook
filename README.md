@@ -1,3 +1,7 @@
+
+**AI Quality Engineering Playbook**
+*Exploring Quality Engineering in the Age of AI*
+
 # AI Quality Engineering Playbook
 
 ## What is this project?
