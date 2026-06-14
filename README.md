@@ -1,20 +1,20 @@
 # AI Quality Engineering Playbook
 
-*Exploring how Quality Engineering evolves in the age of AI.*
+*Exploring how a Senior QA Engineer evaluates the usefulness and trustworthiness of AI in everyday quality engineering work.*
 
 ---
 
 # What is this project?
 
-AI Quality Engineering Playbook is a public learning project that explores how an experienced QA Engineer can evaluate, test, and assess AI-powered products.
+AI Quality Engineering Playbook is a public learning project where I explore how Quality Engineering must evolve as AI becomes part of the software development lifecycle.
 
-Using ChatGPT as a case study, the project applies traditional Quality Engineering principles—such as product analysis, risk assessment, test design, exploratory testing, and defect investigation—to a modern Conversational AI system.
+Using ChatGPT as a case study, I am evaluating whether Conversational AI can meaningfully support the activities that occupy most of my day-to-day work as a Senior QA Engineer.
 
-The goal is not to learn how to use AI.
+Rather than focusing on AI as a technology, I am focusing on AI as a working partner.
 
-The goal is to answer a more important question:
+The central question behind this project is:
 
-> How should Quality Engineering evolve when the product under test is powered by AI?
+> Can a Senior QA Engineer trust AI-generated outputs to support quality-related decisions?
 
 ---
 
@@ -22,108 +22,121 @@ The goal is to answer a more important question:
 
 I have spent 11+ years working in Software Quality Assurance.
 
-Throughout my career, quality evaluation has largely focused on deterministic systems where the same input is expected to produce the same output.
+Most of my career has been spent evaluating deterministic systems where expected behavior can be validated against predefined outcomes.
 
-AI-powered products challenge many of those assumptions.
+AI changes that.
 
-When testing AI systems, Quality Engineers must evaluate risks that are uncommon in traditional software, including:
+When using AI-powered systems, there is often no single correct answer.
 
-* Hallucinations
-* Non-deterministic behavior
-* Context loss
-* Inconsistent responses
-* Instruction non-compliance
-* Trustworthiness of outputs
+Responses can be:
 
-As AI becomes increasingly integrated into products and software development workflows, QA professionals must develop new skills and evaluation approaches while continuing to apply the fundamentals of quality thinking.
+- technically correct but incomplete
+- convincing but incorrect
+- useful but inconsistent
+- relevant but lacking context
 
-This project documents my exploration of that transition.
+As AI becomes increasingly integrated into software delivery, QA Engineers need new approaches for evaluating quality while continuing to apply the fundamentals of critical thinking, risk analysis, exploratory testing, and product understanding.
+
+This project is my way of understanding how the QA profession is evolving in the AI era.
 
 ---
 
 # Project Goals
 
-This project aims to:
+Through this project, I aim to:
 
-* Evaluate ChatGPT from the perspective of a QA Engineer
-* Understand how QA professionals use Conversational AI in their daily work
-* Identify AI-specific quality risks and failure modes
-* Design testing strategies for AI-powered systems
-* Apply exploratory testing techniques to Conversational AI
-* Develop practical AI evaluation frameworks
-* Investigate defects, limitations, and quality concerns
-* Explore how traditional QA practices adapt to AI products
-* Share findings with the Quality Engineering community
+- Evaluate ChatGPT from the perspective of a Senior QA Engineer
+- Understand where AI creates value in quality engineering workflows
+- Identify situations where AI recommendations should not be trusted
+- Explore AI-specific quality risks and failure modes
+- Design practical evaluation approaches for Conversational AI
+- Apply exploratory testing techniques to AI-powered systems
+- Build an AI Trust & Security Lab to demonstrate AI quality risks
+- Develop a practical framework for AI Quality Engineering
+- Share findings publicly with the QA community
 
 ---
 
 # Why ChatGPT?
 
-ChatGPT is one of the most widely adopted AI products and serves as an excellent case study for AI Quality Engineering.
+I chose ChatGPT because it is one of the most widely adopted AI products and is increasingly becoming part of everyday software development work.
 
-It is used daily by developers, testers, product managers, business analysts, students, and enterprise teams.
+More importantly, it is already being used by QA Engineers for activities such as:
 
-For QA Engineers specifically, ChatGPT is increasingly being used for:
+- requirements analysis
+- risk assessment
+- test design
+- defect investigation
+- troubleshooting
+- automation support
+- technical learning
+- quality-related decision making
 
-* Requirements analysis
-* Test design
-* Risk assessment
-* Defect investigation
-* Test automation support
-* Technical learning
-* Quality-related decision-making
+This makes ChatGPT an ideal product for studying how AI can augment quality engineering activities.
 
-This makes ChatGPT a practical product for exploring how AI systems should be evaluated from a quality perspective.
+The objective is not to determine whether ChatGPT is a good AI product.
+
+The objective is to determine whether it is a trustworthy quality engineering partner.
 
 ---
 
-# QA Engineer Perspective
+# Senior QA Engineer Perspective
 
-This project evaluates ChatGPT as if a QA Engineer were the primary end user.
+This project evaluates ChatGPT through the lens of an experienced QA professional.
 
-The focus is not on every feature available within ChatGPT.
+As a QA Engineer, I do not measure success by how many responses ChatGPT generates.
 
-Instead, the evaluation focuses on how effectively Conversational AI supports activities such as:
+I measure success by whether it helps me:
 
-* Analyzing requirements
-* Designing tests
-* Investigating defects
-* Assessing risks
-* Solving quality-related problems
-* Learning technical concepts
-* Supporting testing decisions
+- identify risks earlier
+- uncover gaps in requirements
+- improve test coverage
+- accelerate investigations
+- challenge assumptions
+- learn unfamiliar technologies
+- make better quality-related decisions
+
+If ChatGPT cannot reliably support these outcomes, its value to a QA Engineer is limited regardless of how advanced the underlying technology may be.
 
 ---
 
 # Key Question
 
-Throughout this project, I will continuously evaluate the following question:
+The entire project revolves around a single question:
 
-> Can AI-generated outputs be trusted to support quality-related decision-making?
+> Can AI-generated outputs be trusted to influence quality-related decisions?
 
-Answering this question requires evaluating not only correctness, but also reasoning quality, context retention, actionability, consistency, and trustworthiness.
+To answer this question, I will evaluate ChatGPT across dimensions such as:
+
+- Technical Accuracy
+- Reasoning Quality
+- Trustworthiness
+- Context Retention
+- Actionability
+- Completeness
+- Hallucination Resistance
 
 ---
 
-# Product Under Test
+# Product Under Evaluation
 
 ## ChatGPT
 
-Primary Capability Under Evaluation:
+### Primary Capability
 
 **Conversational AI**
 
-Areas of Focus:
+### Areas of Focus
 
-* Requirements Analysis Assistance
-* Test Design Assistance
-* Risk Analysis Assistance
-* Defect Investigation Assistance
-* Multi-Turn Collaboration
-* Context Retention
-* Reasoning Quality
-* Hallucination Resistance
-* Trustworthiness
+- Requirements Analysis
+- Risk Assessment
+- Test Design
+- Defect Investigation
+- Technical Learning
+- Multi-Turn Collaboration
+- Context Retention
+- Reasoning Quality
+- Trustworthiness
 
 ---
 
@@ -145,8 +158,14 @@ AI-Quality-Engineering-Playbook
 
 # Expected Outcome
 
-By the end of this project, I aim to develop a practical framework for evaluating AI-powered products through a Quality Engineering lens and gain a deeper understanding of how the QA profession is evolving in the AI era.
+By the end of this project, I hope to answer two important questions.
 
-More importantly, I hope this project helps answer a question many QA professionals are currently asking:
+First:
 
-> What does great Quality Engineering look like when the product itself is powered by AI?
+> How useful is ChatGPT in the daily work of a Senior QA Engineer?
+
+Second:
+
+> What does effective Quality Engineering look like when AI becomes part of the workflow?
+
+My goal is to develop a practical framework that helps QA professionals evaluate AI systems while also understanding how AI can be used responsibly, effectively, and critically in quality-related work.
