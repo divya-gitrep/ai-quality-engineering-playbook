@@ -2,19 +2,19 @@
 
 ## Overview
 
-For the purpose of this project, the scope is intentionally focused on **Conversational AI**, the core capability and primary value proposition of ChatGPT.
+This project focuses on **Conversational AI**, the primary capability through which QA Engineers interact with ChatGPT to perform quality-related activities.
 
-Rather than evaluating every feature available in the product, this project focuses on the quality characteristics and testing challenges associated with AI-powered conversations.
+Rather than evaluating every ChatGPT feature, the scope is limited to conversational capabilities that directly support software testing, quality analysis, problem solving, and decision making.
 
 ---
 
-## Primary Feature
+# Primary Feature
 
-### Conversational AI
+## Conversational AI
 
-**Description:**
+**Description**
 
-Conversational AI enables users to interact with ChatGPT using natural language to obtain information, solve problems, generate content, perform tasks, and engage in multi-turn conversations.
+Conversational AI enables QA Engineers to interact with ChatGPT using natural language to analyze requirements, design tests, investigate defects, assess risks, generate documentation, and solve quality-related problems.
 
 **Business Impact:** Critical
 
@@ -22,33 +22,35 @@ Conversational AI enables users to interact with ChatGPT using natural language 
 
 ---
 
-## Conversational AI Capabilities
+# QA Engineer Use Cases
 
-| Capability | Description | Key Quality Concerns | Testing Priority |
-|------------|-------------|----------------------|------------------|
-| Question Answering | Respond to user questions across various domains and topics. | Accuracy, Relevance, Completeness | P1 |
-| Multi-Turn Conversations | Maintain context and coherence across multiple interactions. | Context Retention, Consistency | P1 |
-| Instruction Following | Follow user instructions regarding format, structure, and constraints. | Compliance, Precision | P1 |
-| Reasoning & Problem Solving | Analyze problems, evaluate options, and provide recommendations. | Logical Consistency, Correctness | P1 |
-| Content Generation | Generate content such as emails, reports, user stories, and test cases. | Relevance, Quality, Completeness | P1 |
-| Context Retention | Recall and utilize information shared earlier in the conversation. | Accuracy, Continuity | P1 |
-| Ambiguity Handling | Interpret vague, incomplete, or unclear user requests. | Clarification, Assumption Management | P1 |
-| Hallucination Resistance | Avoid generating false, fabricated, or misleading information. | Trustworthiness, Accuracy | P1 |
-| Safety & Boundaries | Respond appropriately to unsafe, harmful, or restricted requests. | Safety, Policy Compliance | P1 |
-
----
-
-## Key Observations
-
-- Conversational AI is the core value proposition of ChatGPT and therefore represents the primary focus of this project.
-- Unlike traditional software systems, conversational AI does not always produce deterministic outputs, creating unique quality challenges.
-- Evaluating conversational AI requires assessing not only functional correctness but also factors such as accuracy, consistency, context retention, trustworthiness, and safety.
-- The capabilities identified above will serve as the foundation for future phases of this project, including requirements analysis, risk assessment, test design, exploratory testing, and AI quality evaluation.
+| Capability                   | QA Engineer Usage                                                         | Key Quality Concerns                   | Priority |
+| ---------------------------- | ------------------------------------------------------------------------- | -------------------------------------- | -------- |
+| Requirements Analysis        | Identify ambiguities, gaps, assumptions, and missing acceptance criteria. | Accuracy, Relevance, Reasoning Quality | P1       |
+| Test Design                  | Generate functional, negative, boundary, and exploratory test scenarios.  | Completeness, Coverage, Consistency    | P1       |
+| Risk Analysis                | Identify quality risks and testing priorities.                            | Logical Reasoning, Risk Awareness      | P1       |
+| Defect Investigation         | Analyze defects, logs, and error messages.                                | Technical Accuracy, Actionability      | P1       |
+| Root Cause Analysis          | Generate potential causes for failures and unexpected behavior.           | Reasoning Quality, Relevance           | P1       |
+| Test Automation Support      | Assist with automation troubleshooting and script analysis.               | Technical Accuracy, Correctness        | P1       |
+| API Testing Assistance       | Generate API test scenarios and validation ideas.                         | Completeness, Accuracy                 | P1       |
+| Documentation Generation     | Create defect reports, test plans, and quality artifacts.                 | Instruction Adherence, Clarity         | P1       |
+| Learning & Knowledge Support | Learn tools, technologies, domains, and AI concepts.                      | Accuracy, Knowledge Depth              | P1       |
+| Multi-Turn Collaboration     | Refine testing activities through iterative conversations.                | Context Retention, Consistency         | P1       |
 
 ---
 
-## Testing Priority Definition
+# Key Observations
 
-| Priority | Description |
-|----------|-------------|
-| P1 | Critical capability with high business impact and significant quality risk. |
+* QA Engineers primarily interact with ChatGPT through Conversational AI rather than traditional product features.
+* The value of ChatGPT depends on the quality of its recommendations, analysis, and reasoning.
+* Unlike traditional software testing, AI outputs cannot always be validated using deterministic expected results.
+* Evaluating Conversational AI requires assessing accuracy, reasoning quality, trustworthiness, context retention, and actionability.
+* These capabilities will serve as the foundation for requirements analysis, risk assessment, test design, exploratory testing, and AI evaluation experiments.
+
+---
+
+# Testing Priority Definition
+
+| Priority | Description                                                                |
+| -------- | -------------------------------------------------------------------------- |
+| P1       | Critical capability with direct impact on quality-related decision making. |
