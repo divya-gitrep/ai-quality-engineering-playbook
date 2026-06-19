@@ -170,7 +170,7 @@ Second:
 
 My goal is to develop a practical framework that helps QA professionals evaluate AI systems while also understanding how AI can be used responsibly, effectively, and critically in quality-related work.
 
-## Author & AI Collaboration
+# Author & AI Collaboration
 
 Created by Divya Shakya.
 
